@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 24px;
+  color: white;
+}
+
+.header {
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+  background-color: black;
+  position: fixed;
+}
+
+.nav {
+  padding: 160px 0 0 0;
+}
+.nav a {
+  color: black;
+  margin-top: 40px;
+  display: block;
+}
+
+.size {
+  width: 100%;
+  height: 100vh;
+  line-height: 100vh;
+  background-color: blue;
+}
+
+#anc-01 {
+  background-color: green;
+}
+
+#anc-02 {
+  background-color: red;
+}
+
+#anc-03 {
+  background-color: purple;
+}
+
+#anc-04 {
+  background-color: orange;
+}
+/*# sourceMappingURL=style.css.map */

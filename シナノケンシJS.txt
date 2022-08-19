@@ -1,0 +1,16 @@
+/**
+     * AMR配下スムーススクロール
+     */
+    (function () {
+        const amrPathName = location.href;
+        console.log(amrPathName)
+
+        const hash = window.location.hash;
+        console.log(hash)
+        if (!hash) {
+            return;
+        }
+
+        const targetToScrollElement = document.getElementById(hash.replace('#', ''));
+        // スムーススクロールを実行する処理
+    }());
